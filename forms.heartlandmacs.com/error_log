@@ -1,0 +1,8 @@
+[21-Apr-2020 18:53:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/ok8kget4rj2h/public_html/forms.heartlandmacs.com/wp-content/plugins/ninja-forms/ninja-forms.php:1275
+Stack trace:
+#0 /home/ok8kget4rj2h/public_html/forms.heartlandmacs.com/wp-includes/class-wp-hook.php(287): nf_update_marketing_feed()
+#1 /home/ok8kget4rj2h/public_html/forms.heartlandmacs.com/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/ok8kget4rj2h/public_html/forms.heartlandmacs.com/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /home/ok8kget4rj2h/public_html/forms.heartlandmacs.com/wp-cron.php(138): do_action_ref_array('nf_marketing_fe...', Array)
+#4 {main}
+  thrown in /home/ok8kget4rj2h/public_html/forms.heartlandmacs.com/wp-content/plugins/ninja-forms/ninja-forms.php on line 1275

@@ -6,6 +6,14 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+.carousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	        backface-visibility: visible;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -168,6 +176,14 @@ html, body {
   opacity: 0.5;
   margin-right: 5px;
 }
+
+.carousel-inner>.item {
+  -webkit-transition: 0s !important;
+  -o-transition: 0s !important;
+  transition: 0s !important;
+}
+
+.carousel-inner{overflow:visible} 
 
 /* Product Price */
 .product-price {
